@@ -44,7 +44,7 @@ let temperature = () => {
         let farenHeit = inpValue * (9 / 5) + 32;
         display.innerHTML = farenHeit.toFixed(4) + "ºF";
 
-        if (farenHeit < 32) {
+        if (farenHeit < 40) {
             emoji.style = "color:blue";
             emoji.className = "fa-solid fa-face-grimace";
             tempText.innerHTML = "Cool at frezing point";
