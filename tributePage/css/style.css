@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.video {
+    width: 100%;
+    text-align: center;
+    background-color: #191919;
+    height: 100vh;
+    padding: 12% 0 0 0%;
+}
+
+.video iframe {
+    width: 90%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.box {
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+}
+
+.text-box .para {
+    margin-top: 19%;
+}
+
+.text-box .para p {
+    padding: 3% 19%;
+    font-size: 3rem;
+}
+
+.img-box {
+    margin-bottom: 5%;
+}
+
+.img-box .steve-img {
+    width: 100%;
+}
+
+.img-box .steve-img img {
+    width: 100%;
+}
+
+.paragraph {
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    padding: 10% 6% 10% 6%;
+    /* text-align: center; */
+}
+
+.heading{
+    margin-bottom: 3%;
+}
+
+
+.heading h1{
+    font-size: 4rem;
+}
+
+.paragraph .about  p{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 1.1rem
+}
+
+.paragraph .about a{
+    color: white;
+    font-size: 20px;
+}
+
+.paragraph hr{
+    margin-top: 4%;
+}
+
+.paragraph .copyright{
+    text-align: center;
+    margin-top: 2%;
+}
